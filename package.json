@@ -1,0 +1,4 @@
+{ "name": "petcare-tools", "private": true, "version": "1.0.0",
+  "description": "Generates the demo seed SQL and eligibility golden file from the PetCARE-dev front end",
+  "scripts": { "generate": "node generate-seed.js" },
+  "dependencies": { "bcryptjs": "^2.4.3" } }
